@@ -1,0 +1,34 @@
+{
+  "name": "PrivateLM (macblizzard)",
+  "subtitle": "Unsigned PrivateLM builds for sideloading",
+  "description": "Unsigned iOS builds of PrivateLM, built by GitHub Actions from macblizzard/cross-platform-llm-client.",
+  "iconURL": "https://raw.githubusercontent.com/macblizzard/cross-platform-llm-client/main/assets/icons/appicon.png",
+  "website": "https://github.com/macblizzard/privatelm-ipa-source",
+  "tintColor": "#5B5BD6",
+  "nsfw": false,
+  "featuredApps": ["com.orailnoor.privatelm"],
+  "apps": [
+    {
+      "name": "PrivateLM",
+      "bundleIdentifier": "com.orailnoor.privatelm",
+      "developerName": "orailnoor",
+      "subtitle": "Local/Cloud LLM assistant",
+      "localizedDescription": "AI Chat: local and cloud LLM assistant.",
+      "iconURL": "https://raw.githubusercontent.com/macblizzard/cross-platform-llm-client/main/assets/icons/appicon.png",
+      "tintColor": "#5B5BD6",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.7",
+          "buildVersion": "7",
+          "date": "2026-11-04",
+          "downloadURL": "https://github.com/macblizzard/privatelm-ipa-source/releases/download/v1.0.7-7/PrivateLM.ipa",
+          "size": 0,
+          "minOSVersion": "16.2"
+        }
+      ],
+      "appPermissions": { "entitlements": [], "privacy": {} }
+    }
+  ],
+  "news": []
+}
