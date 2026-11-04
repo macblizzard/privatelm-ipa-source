@@ -6,7 +6,9 @@
   "website": "https://github.com/macblizzard/privatelm-ipa-source",
   "tintColor": "#5B5BD6",
   "nsfw": false,
-  "featuredApps": ["com.orailnoor.privatelm"],
+  "featuredApps": [
+    "com.orailnoor.privatelm"
+  ],
   "apps": [
     {
       "name": "PrivateLM",
@@ -23,11 +25,18 @@
           "buildVersion": "7",
           "date": "2026-11-04",
           "downloadURL": "https://github.com/macblizzard/privatelm-ipa-source/releases/download/v1.0.7-7/PrivateLM.ipa",
-          "size": 0,
+          "size": 26843397,
           "minOSVersion": "16.2"
         }
       ],
-      "appPermissions": { "entitlements": [], "privacy": {} }
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.0.7",
+      "versionDate": "2026-11-04",
+      "downloadURL": "https://github.com/macblizzard/privatelm-ipa-source/releases/download/v1.0.7-7/PrivateLM.ipa",
+      "size": 26843397
     }
   ],
   "news": []
